@@ -7,8 +7,11 @@
 }
 
 .section-header .avatar-container {
-  width: 60%;
+  height: 100%;
+  width: 100%;
   margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
 }
 
 .section-header .info-container {
@@ -17,34 +20,34 @@
   width: 100%;
 }
 
-.section-header .info-container .info-name {
-  position: relative;
-}
+// .section-header .info-container .info-name {
+//   position: relative;
+// }
 
-.section-header .info-container .info-name .first-name {
-  position: relative;
-}
+// .section-header .info-container .info-name .first-name {
+//   position: relative;
+// }
 
-.section-header .info-container .info-name .last-name {
-  position: relative;
-}
+// .section-header .info-container .info-name .last-name {
+//   position: relative;
+// }
 
-.section-header .info-container .info-title {
-  position: relative;
-}
+// .section-header .info-container .info-title {
+//   position: relative;
+// }
 
-.section-header .info-container .info-socials {
-  position: relative;
-}
+// .section-header .info-container .info-socials {
+//   position: relative;
+// }
 
-.section-header .info-container .info-socials a{
-  position: relative;
-}
+// .section-header .info-container .info-socials a{
+//   position: relative;
+// }
 
-.section-header .info-container .info-socials a:hover{
-  position: relative;
-}
+// .section-header .info-container .info-socials a:hover{
+//   position: relative;
+// }
 
-.section-header .info-container hr{
-  position: relative;
-}
+// .section-header .info-container hr{
+//   position: relative;
+// }
