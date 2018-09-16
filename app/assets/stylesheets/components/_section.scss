@@ -1,5 +1,6 @@
 .section-header {
   position: relative;
+  text-align: center;
 }
 
 .section-header .full-height {
@@ -19,37 +20,66 @@
   padding: 1.75rem 1.75rem 0rem;
   width: 100%;
 }
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
 
 
 
-// .section-header .info-container .info-name {
-//   position: relative;
-// }
+.section-header .info-container .info-name {
+  font-size: 100px;
+  line-height: 0.9;
+  margin-bottom: 1.4rem;
+}
 
-// .section-header .info-container .info-name .first-name {
-//   position: relative;
-// }
+.section-header .info-container .info-name .first-name {
+  text-transform: lowercase;
+  font-weight: 200;
+  color: #e00813;
+}
 
-// .section-header .info-container .info-name .last-name {
-//   position: relative;
-// }
+.section-header .info-container .info-name .last-name {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #e00813;
+  margin-top: 10px;
+}
 
-// .section-header .info-container .info-title {
-//   position: relative;
-// }
+.section-header .info-container .info-title {
+  font-weight: 300;
+  font-size: 40px;
+  margin-left: 0.3rem;
+  color: #ba0710;
+}
 
-// .section-header .info-container .info-socials {
-//   position: relative;
-// }
+.section-header .info-container .info-socials {
+  position: absolute;
+  right: 1.75rem;
+  bottom: 26px;
+}
 
-// .section-header .info-container .info-socials a{
-//   position: relative;
-// }
+.section-header .info-container .info-socials a{
+  margin-right: 10px;
+  display: inline-block;
+  text-align: center;
+  background: #1b1b1c;
+  border: 2px solid #e00813;
+  width: 38px;
+  height: 38px;
+  font-size: 26px;
+  line-height: 34px;
+  border-radius: 3px;
+  color: #717273;
+}
 
-// .section-header .info-container .info-socials a:hover{
-//   position: relative;
-// }
+.section-header .info-container .info-socials a:hover{
+  background: #717273;
+  color: #e00d0d;
+}
 
-// .section-header .info-container hr{
-//   position: relative;
-// }
+.section-header .info-container hr{
+  margin-top: 10px;
+  height: 2px;
+  background: #404242;
+}
