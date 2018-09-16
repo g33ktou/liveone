@@ -31,6 +31,8 @@ h1 {
   font-size: 100px;
   line-height: 0.9;
   margin-bottom: 1.4rem;
+  margin-top: 250px;
+  margin-right: 350px
 }
 
 .section-header .info-container .info-name .first-name {
@@ -49,14 +51,16 @@ h1 {
 .section-header .info-container .info-title {
   font-weight: 300;
   font-size: 40px;
-  margin-left: 0.3rem;
   color: #ba0710;
+  margin-right: 350px;
 }
 
 .section-header .info-container .info-socials {
   position: absolute;
   right: 1.75rem;
   bottom: 26px;
+  margin-right: 200px;
+  margin-bottom: -13px;
 }
 
 .section-header .info-container .info-socials a{
@@ -82,4 +86,10 @@ h1 {
   margin-top: 10px;
   height: 2px;
   background: #404242;
+}
+
+hr {
+  border: 0;
+  margin-right: 150px;
+  margin-left: 877px;
 }
