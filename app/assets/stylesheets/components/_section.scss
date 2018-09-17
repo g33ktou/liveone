@@ -93,3 +93,22 @@ hr {
   margin-right: 150px;
   margin-left: 877px;
 }
+
+/* section cv
+*/
+.section-curriculum {
+  position: relative;
+}
+
+.section-curriculum .bg-left-col {
+  padding: 60px 0px 60px 40px;
+}
+
+.section-curriculum .timeline-container {
+  border-left-width: 2px;
+  border-left-style: solid;
+  margin-left: calc(1rem - 2px);
+  padding-left: 25px;
+  position: relative;
+  border-color: #404042;
+}
