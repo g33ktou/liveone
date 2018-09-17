@@ -112,3 +112,49 @@ hr {
   position: relative;
   border-color: #404042;
 }
+
+.section-curriculum .timeline-item {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 1.2rem;
+  position: relative;
+  font-weight: 500;
+}
+.section-curriculum .timeline-item .timeline-point {
+  background: #e00d0d;
+  height:10px ;
+  width: 10px;
+  position: absolute;
+  left: -31px;
+  top: 3px;
+  border-radius: 50%;
+}
+
+.section-curriculum .timeline-item .timeframe,
+.section-curriculum .timeline-item .location {
+  opacity: 0.6;
+  font-size: 0.7rem;
+  margin-bottom: 0.4rem;
+}
+
+.section-curriculum .timeline-item .heading {
+  margin-bottom: 0.4rem;
+  font-size: 1.2rem;
+  line-height: 1.45;
+  font-weight: 600;
+  color: #a4a5a6;
+  text-transform: uppercase;
+}
+
+.section-curriculum .timeline-item .title {
+  font-size: 0.8rem;
+  color: #a4a5a6;
+  margin-bottom: 0.4rem;
+}
+
+.section-curriculum .timeline-item .col {
+  font-size:0.8rem ;
+  margin-bottom: 0.55rem;
+  margin-top: 1rem;
+}
