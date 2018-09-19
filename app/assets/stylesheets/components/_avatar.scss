@@ -1,11 +1,10 @@
+.avatar-container {
+  height: 55vh;
+}
+
 .deadpool {
   background-image: image-url("deadpool-logo.jpg");
-  width: 65%;
-  height: 90%;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  vertical-align: middle;
-  border-style: none;
+  height: 88%;
+  background-position: center;
   background-repeat: no-repeat;
 }
