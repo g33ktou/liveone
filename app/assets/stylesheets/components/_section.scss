@@ -12,7 +12,7 @@
   position: relative;
   padding: 1.75rem 1.75rem 0rem;
   width: 100%;
-  height: 55vh;
+  height: 100vh;
 }
 // h1 {
 //   font-size: 2em;
@@ -62,10 +62,10 @@
   color: #717273;
 }
 
-// .section-header .info-container .info-socials a:hover{
-//   background: #717273;
-//   color: #e00d0d;
-// }
+.section-header .info-container .info-socials a:hover{
+  background: #717273;
+  color: #e00d0d;
+}
 
 // .section-header .info-container hr{
 //   margin-top: 10px;
@@ -73,11 +73,9 @@
 //   background: #404242;
 // }
 
-// hr {
-//   border: 0;
-//   margin-right: 150px;
-//   margin-left: 877px;
-// }
+hr {
+  width: 80vw;
+}
 
 // /* section cv
 // */

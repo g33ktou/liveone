@@ -1,0 +1,20 @@
+.flexbox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 200px;
+  width: 100vw;
+  flex: 0 100% 200px;
+}
+
+.vl {
+    border-left: 1px solid red;
+    height: 350px;
+    position: absolute;
+    right: 0;
+    margin-left: -3px;
+    top: 0;
+}
+
+
+
