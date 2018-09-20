@@ -1,9 +1,20 @@
 <div class="container" style="background-color: black;">
-  <div class="container-about">
-    <h1>Pages#about</h1>
-    <p>Find me in app/views/pages/about.html.erb</p>
-    <%= link_to "back to menu", root_path %>
-    <%= link_to "go to my exp", experience_path %>
-    <%= link_to "see my certifications", certification_path %>
+  <div class="about">
+    <h1>More about me</h1>
+    <br>
+      <p>Ma vie a toujours était dirigée par le sport depuis mes 10 ans, de ce fait ma vie professionnelle s'est naturellement orientée dans le sport, j'ai passé mon diplome d'éducateur sportif à Aix-en-provence (france).Après quelques années dans le sud de la France je suis partie en Suisse ou j'ai travaillé pour l'école international de Genève (campus des nations) et le canton de Genève en tant que référant athlétisme, pendant 2 ans. à mon retour en France j'ai pris la direction de la section athlétisme du smuc pendant 2 ans, cela ma permit de me rendre compte que j'avais besoin de noueauté dans ma vie.
+      J'ai donc décidé de me réorienter dans le développement web, car il me fallait un milieu complètement différent du précédent  mais il fallait également que ce milieu me maintienne en constant éveil intelectuelle afin d'éviter la monotonie.
+      J'ai donc suivi la formation du wagon, qui fût ma plus belle expérience formatrice et de ce fait, j'ai sû que je voulais travailler dans ce nouveau milieu. Je garde néanmoins une grande sensibilité sportive puisque je pratique réguliérement du cyclisme, de la course à pied (course semi longue et trail) ainsi que de l'escalade. Ce nouvel équilibre me permet d'être performant dans ma vie professionelle </p>
+      <br>
+      <%= link_to "Home", root_path, class: "btn btn-menu" %>
+      <br>
+      <br>
+      <br>
+      <%= link_to "Myxp", experience_path, class: "btn btn-menu" %>
+      <br>
+      <br>
+      <br>
+      <%= link_to "Mycertif", certification_path, class: "btn btn-menu" %>
   </div>
 </div>
+

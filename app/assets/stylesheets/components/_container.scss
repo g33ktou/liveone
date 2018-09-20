@@ -7,9 +7,22 @@
   margin-left: auto;
 }
 
-.container-about {
+.about {
+  background-position: center;
+  margin-top: 15px;
   background-color: #1b1b1c;
   height: 95vh;
+  text-align: center;
+  margin-left: 25vw;
+  margin-right: 25vw;
+  justify-content: space-between;
+}
+.about h1 {
+  color: red;
+  position: relative;
+}
+.about p {
+  color: white;
 }
 
 .container-certification {
