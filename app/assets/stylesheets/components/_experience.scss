@@ -5,6 +5,7 @@
   margin-bottom: 1.2rem;
   position: relative;
   font-weight: 500;
+  color: red;
 }
 
 .container .experience-item .experience-point {
@@ -14,7 +15,7 @@
   width: 10px;
   position: absolute;
   left: -31px;
-  top: 3px;
+  top: -2px;
   border-radius: 50%;
 }
 
@@ -26,7 +27,7 @@
 
 .experience-item .heading {
   margin-bottom: 0.4rem;
-  font-size: 1.2rem;
+  font-size: 25px;
   line-height: 1.45;
   font-weight: 600;
   color: #a4a5a6;
@@ -34,15 +35,16 @@
 }
 
 .experience-item .title {
-  font-size: 0.8rem;
+  font-size: 15px;
   color: #a4a5a6;
   margin-bottom: 0.4rem;
 }
 
 .experience-item .col {
-  font-size: 0.8rem;
+  font-size: 15px;
   margin-bottom: 0.55rem;
-  margin-top: 1rem;
+  margin-top: 65px;
+  color: #a4a5a6;
 }
 
 .container .container-experience {
