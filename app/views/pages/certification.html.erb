@@ -1,9 +1,48 @@
-<div class="container" style="background-color: black;">
+<div class="container" style="background-color: #1b1b1c;">
+  <h1>My certifications</h1>
   <div class="container-certification">
-    <h1>Pages#certification</h1>
-    <p>Find me in app/views/pages/certification.html.erb</p>
-      <%= link_to "back to menu", root_path %>
-      <%= link_to "go to my exp", experience_path %>
-      <%= link_to "more about me", about_path %>
+    <div class="certification-item">
+      <div class="certification-point"></div>
+      <div class="row">
+        <div class="col-md-5">
+          <div class="timeframe">2018</div>
+          <div class="heading">LeWagon</div>
+          <div class="title">Full-stack Developer</div>
+          <div class="location">Marseille, France</div>
+        </div>
+        <div class="col">
+          learning HTML, CSS, Bootsrap, JavaScript, jQuery, SQL, git, Github, Heroku and Ruby on Rails.
+          <br/>
+          clone of AirBnB
+          <br/>
+          a Rails prototype named UrbanTraining.eu
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="certification-item">
+      <div class="certification-point"></div>
+      <div class="row">
+        <div class="col-md-5">
+          <div class="timeframe">2018</div>
+          <div class="heading">Creps Sud-Est</div>
+          <div class="title">Brevet d'état d'éducateur sportif</div>
+          <div class="location">Aix-en-Provence, France</div>
+        </div>
+        <div class="col">
+          tronc commun, physiologie, bio mécanique, histoire du sport, psycho-pédagogie, réglementation
+          <br/>
+          Sépcialisation Athlétisme
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <br>
+      <%= link_to "back to menu", root_path, class: "btn btn-menu" %>
+      <%= link_to "more about me", about_path, class: "btn btn-menu" %>
+      <%= link_to "myExp", experience_path, class: "btn btn-menu" %>
   </div>
 </div>

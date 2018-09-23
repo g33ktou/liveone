@@ -1,0 +1,58 @@
+.certification-item {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 1.2rem;
+  position: relative;
+  font-weight: 500;
+  color: red;
+}
+
+.container .certification-item .certification-point {
+  top: 55px;
+  background: red;
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: -31px;
+  top: -2px;
+  border-radius: 50%;
+}
+
+.certification-item .timeframe .location {
+  opacity: 0.6;
+  font-size: 0.7rem;
+  margin-bottom: 0.4rem;
+}
+
+.certification-item .heading {
+  margin-bottom: 0.4rem;
+  font-size: 25px;
+  line-height: 1.45;
+  font-weight: 600;
+  color: #a4a5a6;
+  text-transform: uppercase;
+}
+
+.certification-item .title {
+  font-size: 15px;
+  color: #a4a5a6;
+  margin-bottom: 0.4rem;
+}
+
+.certification-item .col {
+  font-size: 15px;
+  margin-bottom: 0.55rem;
+  margin-top: 65px;
+  color: #a4a5a6;
+}
+
+.container .container-certification {
+  border-left-width: 2px;
+  border-left-style: solid;
+  margin-left: calc(1rem - 2px);
+  padding-left: 25px;
+  position: relative;
+  border-color: #404242;
+  margin-left: 3px;
+}
