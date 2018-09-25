@@ -1,3 +1,14 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+  $(document).ready(function() {
+    $('.js-scrollTo').on('click', function() { // Au clic sur un élément
+      var page = $(this).attr('href'); // Page cible
+      var speed = 750; // Durée de l'animation (en ms)
+      $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+      return false;
+    });
+  });
+</script>
 <div class="home-component">
   <section class="section-header">
     <div class="container">
@@ -24,26 +35,30 @@
               <span aria-hidden="true" class="fab fa-facebook"></span>
             </a>
           </div>
+          <a class="js-scrollTo link-white"  href="#page-1">Click me if you are lazy to scroll</a>
           <hr>
-          <div class="row">
-            <div class="flexbox">
-              <div class="col-xs-12 col-sm-4">
-                <div class="aboutme">put link for text about myself here</div>
-                  <%= link_to "more about me", about_path, class: "btn btn-menu" %>
-                <div class="vl"></div>
-              </div>
-              <div class="col-xs-12 col-sm-4">
-                <div class="myexp">put link for my exp here</div>
-                  <%= link_to "Myxp", experience_path, class: "btn btn-menu" %>
-                <div class="vl"></div>
-              </div>
-              <div class="col-xs-12 col-sm-4">
-                <div class="certifications">put link for my certif here</div>
-                  <%= link_to "Mycertif", certification_path, class: "btn btn-menu" %>
-              </div>
+          <div id="page-1">
+            <div class="row">
+              <div class="flexbox">
+                <div class="col-xs-12 col-sm-4">
+                  <div class="aboutme">Click here if u want to know more about me, because "all the dinosaurs feared the T-REX"</div>
+                    <%= link_to "more about me", about_path, class: "btn btn-menu btn-mg-top" %>
+                  <div class="vl"></div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                  <div class="myexp">Here is my current experience "McAvoy or Stewart? These timelines are confusing."</div>
+                    <%= link_to "My experiences", experience_path, class: "btn btn-menu btn-mg-top" %>
+                  <div class="vl"></div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                  <div class="certifications">if you are interested you can see my certifications here "He got Ajax from the dish soap!"</div>
+                    <%= link_to "My certifications", certification_path, class: "btn btn-menu btn-mg-top" %>
+                </div>
+                </div>
               </div>
             </div>
           </div>
+          <div class="finalquote">"Listen my fellow viewer, if I never see you again, I want you to know that I love you very much. I also buried 1,600 kilos of cocaine somewhere in my apartment -- right next to the cure for blindness. Good luck."</div>
         </div>
       </div>
     </div>
