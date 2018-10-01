@@ -1,8 +1,6 @@
 .container {
   height: 100vh;
   width: 100vw;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .about {
@@ -32,4 +30,9 @@
   margin-top: -5px;
   background-color: #1b1b1c;
   height: 40vh;
+}
+
+.home-component {
+ height: 100vh;
+ width: 100vw;
 }

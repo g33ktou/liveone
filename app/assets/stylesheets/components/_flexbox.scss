@@ -1,10 +1,10 @@
 .flexbox {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   height: 200px;
-  width: 100vw;
-  flex: 0 100% 200px;
+  flex-shrink: 2;
+//  flex: 0 100% 200px;
 }
 
 .vl {
